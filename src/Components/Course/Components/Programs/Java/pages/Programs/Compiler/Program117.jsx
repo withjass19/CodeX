@@ -1,0 +1,60 @@
+import React from 'react'
+import NavBar from '../../../../../../../Layouts/NavBar';
+import Footer from '../../../../../../../Layouts/Footer';
+
+export default function Program117() {
+
+    return (
+        <div>
+            <div className="bg-black">
+                <NavBar />
+            </div>
+
+            <div className="container-fluid">
+                {/* <div className="row bg- dark text-white" style={{width:"100vw", height:"10vh"}}>
+                    
+                </div> */}
+
+                <div className="container py-5">
+                    <div className="row justify-content-center align-items-center">
+                        <div className="col-8" id='jass'>
+                            <p className='fs-5 fw-semibold'>117. Write a java program to count total number of notes in entered amount using loop.</p>
+                            <p className='fs-6 fw-medium'>Code:</p>
+                            <p className='fw-normal border border-5 rounded-4 p-3'>
+                                import java.util.Scanner;<br />
+                                class CountNotes &#123;<br />
+                                public static void main(String[] args) &#123;<br />
+                                Scanner scanner = new Scanner(System.in);<br />
+
+                                System.out.print("Enter an amount: ");<br />
+                                int amount = scanner.nextInt();<br />
+
+                                int[] noteValues = &#123;100, 50, 20, 10, 5, 1&#125;;<br />
+                                int[] noteCounts = new int[noteValues.length];<br />
+
+                                for (int i = 0; i &lt; noteValues.length; i++) &#123;<br />
+                                noteCounts[i] = amount / noteValues[i];<br />
+                                amount %= noteValues[i];<br />
+                                &#125;<br />
+
+                                System.out.println("Count of Notes:");<br />
+                                for (int i = 0; i &lt; noteValues.length; i++) &#123;<br />
+                                System.out.println("$" + noteValues[i] + " notes: " + noteCounts[i]);<br />
+                                &#125;<br />
+                                &#125;<br />
+                                &#125;
+                            </p>
+
+                            <p className='fs-6 fw-medium pt-5'>Output:</p>
+                            <p className='fw-normal border border-5 rounded-4 p-3'>
+                                Sum of Two numbers: 7
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <Footer />
+        </div>
+    );
+}

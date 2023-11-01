@@ -1,0 +1,50 @@
+import React from 'react'
+import NavBar from '../../../../../../../Layouts/NavBar';
+import Footer from '../../../../../../../Layouts/Footer';
+
+export default function Program33() {
+
+    return (
+        <div>
+            <div className="bg-black">
+                <NavBar />
+            </div>
+
+            <div className="container-fluid">
+                {/* <div className="row bg- dark text-white" style={{width:"100vw", height:"10vh"}}>
+                    
+                </div> */}
+
+                <div className="container py-5">
+                    <div className="row justify-content-center align-items-center">
+                        <div className="col-8" id='jass'>
+                            <p className='fs-5 fw-semibold'>33. Java Program to find area of Prism.</p>
+                            <p className='fs-6 fw-medium'>Code:</p>
+                            <p className='fw-normal border border-3 rounded-5 p-3'>
+                                class Squre_Prism&#123;<br/>
+                                public static double Prism_Area(int side, int height)&#123;<br/>
+                                double SA = 2*side*side + 4*side*height;<br/>
+                                return SA;<br/>
+                                &#125;<br/>
+
+                                public static void main(String args[])&#123;<br/>
+                                int s = 7,<br/>
+                                h = 11;<br/>
+                                System.out.println("The area of the squre prism is: " + Prism_Area(s,h));<br/>
+                                &#125;<br/>
+                                &#125;<br/>
+                            </p>
+
+                            <p className='fs-6 fw-medium pt-5'>Output:</p>
+                            <p className='fw-normal border border-5 rounded-4 p-3'>
+                            The area of the squre prism is: 406.0
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <Footer />
+        </div>
+    );
+}

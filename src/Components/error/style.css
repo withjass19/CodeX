@@ -1,0 +1,53 @@
+.bgColor{
+    background: linear-gradient(129.96deg, #FF2F2F 10.43%, #000460 92.78%), radial-gradient(100% 246.94% at 100% 0%, #FFFFFF 0%, #020063 100%), linear-gradient(58.72deg, #2200F2 0%, #530000 100%), linear-gradient(154.03deg, #B70000 0%, #FF003D 74.04%), linear-gradient(341.1deg, #FF0000 7.52%, #0038FF 77.98%), linear-gradient(136.23deg, #00C2FF 11.12%, #FF0000 86.47%), radial-gradient(57.37% 100% at 50% 0%, #B50000 0%, #0034BB 100%);
+    background-blend-mode: overlay, color-burn, screen, overlay, difference, difference, normal;
+}
+.fluid{
+    width: 100vw;
+    height: 100vh;
+}
+.errortext{
+    font-size: 180px;
+    font-weight: 900;
+    letter-spacing: 20px;
+    color: transparent;
+    line-height: 95%;
+    -webkit-text-stroke: 1px white;
+}
+.errortext1{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 20px;
+    /* color: white; */
+    /* line-height: 95%; */
+    text-transform: uppercase;
+}
+.errortext2{
+    font-size: 35px;
+    /* font-weight: 400; */
+    letter-spacing: 5px;
+    /* color: white; */
+    /* line-height: 100%; */
+    /* text-transform: uppercase; */
+    /* font-size-adjust: 0.6; */
+}
+.errortext3{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    /* color: white; */
+    /* line-height: 90%; */
+    /* text-transform: uppercase; */
+    /* font-size-adjust: 0.6; */
+}
+.codex{
+    font-size: 30px;
+    font-weight: 400;
+}
+.codexText{
+    font-size: 60px;
+    font-weight: 700;
+}
+.align{
+    margin-left: 20%;
+}
